@@ -1,0 +1,65 @@
+{
+    "name": "raftarpay/raftarpay",
+    "description": "A clean, Laravel-native unified API for Pakistani payment gateways — JazzCash, EasyPaisa, Kuickpay, Faysal Bank and Meezan Bank.",
+    "keywords": [
+        "laravel",
+        "payment",
+        "pakistan",
+        "jazzcash",
+        "easypaisa",
+        "kuickpay",
+        "faysal-bank",
+        "meezan-bank",
+        "payment-gateway"
+    ],
+    "homepage": "https://github.com/theinfinitygraphics/raftarpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Ali",
+            "homepage": "https://www.linkedin.com/in/alibuilds/"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/database": "^9.0|^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RaftarPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RaftarPay\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaftarPay\\RaftarPayServiceProvider"
+            ],
+            "aliases": {
+                "RaftarPay": "RaftarPay\\Facades\\RaftarPay"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
