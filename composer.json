@@ -1,15 +1,12 @@
 {
     "name": "raftarpay/raftarpay",
-    "description": "A clean, Laravel-native unified API for Pakistani payment gateways — JazzCash, EasyPaisa, Kuickpay, Faysal Bank and Meezan Bank.",
+    "description": "A clean, Laravel-native unified API for Pakistani payment gateways — JazzCash & EasyPaisa (more coming soon).",
     "keywords": [
         "laravel",
         "payment",
         "pakistan",
         "jazzcash",
         "easypaisa",
-        "kuickpay",
-        "faysal-bank",
-        "meezan-bank",
         "payment-gateway"
     ],
     "homepage": "https://github.com/alibuildz/raftarpay",
