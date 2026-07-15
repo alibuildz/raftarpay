@@ -152,4 +152,4 @@ RaftarPay is open source and community-driven. Issues, new gateway drivers, docs
 
 ## 📄 License
 
-MIT © Muhammad Ali ([The Infinity Graphics](https://www.linkedin.com/in/alibuilds/))
+MIT © Muhammad Ali ([@alibuildz](https://github.com/alibuildz) · [LinkedIn](https://www.linkedin.com/in/alibuilds/))

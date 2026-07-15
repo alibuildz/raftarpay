@@ -12,12 +12,12 @@
         "meezan-bank",
         "payment-gateway"
     ],
-    "homepage": "https://github.com/theinfinitygraphics/raftarpay",
+    "homepage": "https://github.com/alibuildz/raftarpay",
     "license": "MIT",
     "authors": [
         {
             "name": "Muhammad Ali",
-            "homepage": "https://www.linkedin.com/in/alibuilds/"
+            "homepage": "https://github.com/alibuildz"
         }
     ],
     "require": {
