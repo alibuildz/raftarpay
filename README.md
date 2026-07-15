@@ -40,6 +40,23 @@ php artisan raftarpay:install
 
 `raftarpay:install` publishes the config (`config/raftarpay.php`), publishes and runs the migration.
 
+### Installing straight from GitHub (before Packagist)
+
+Until the package is on Packagist, add the repo to your app's `composer.json`:
+
+```json
+"repositories": [
+    { "type": "vcs", "url": "https://github.com/alibuildz/raftarpay" }
+],
+```
+
+then:
+
+```bash
+composer require raftarpay/raftarpay:dev-main
+php artisan raftarpay:install
+```
+
 Then add your merchant credentials to `.env`:
 
 ```env
