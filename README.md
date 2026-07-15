@@ -167,6 +167,19 @@ vendor/bin/phpunit
 
 RaftarPay is open source and community-driven. Issues, new gateway drivers, docs and fixes are all welcome — open a PR.
 
+---
+
+## 💼 Built by Ali — need a Laravel dev?
+
+I'm **Muhammad Ali**, a full-stack developer building web apps, payment integrations, AI tools & automations for businesses worldwide.
+
+If RaftarPay saved you time and you need custom development — payment gateways, SaaS platforms, bots, or anything Laravel — let's talk 👇
+
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/alibuilds/
+- 💚 **Hire me on Upwork:** https://www.upwork.com/freelancers/~01a2c3edded808759c?mp_source=share
+
+⭐ And if this package helped you, a star on the repo means a lot!
+
 ## 📄 License
 
 MIT © Muhammad Ali ([@alibuildz](https://github.com/alibuildz) · [LinkedIn](https://www.linkedin.com/in/alibuilds/))

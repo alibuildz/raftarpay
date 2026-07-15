@@ -35,6 +35,15 @@ class InstallCommand extends Command
         $this->line('  JAZZCASH_MERCHANT_ID, JAZZCASH_PASSWORD, JAZZCASH_INTEGRITY_SALT');
         $this->line('  EASYPAISA_STORE_ID, EASYPAISA_HASH_KEY');
 
+        $this->newLine();
+        $this->line('  ─────────────────────────────────────────────');
+        $this->line('  💚 Enjoying RaftarPay? Built by Muhammad Ali.');
+        $this->line('     Need a Laravel dev / payment integration?');
+        $this->line('     LinkedIn: https://www.linkedin.com/in/alibuilds/');
+        $this->line('     Upwork:   https://www.upwork.com/freelancers/~01a2c3edded808759c');
+        $this->line('     ⭐ Star:  https://github.com/alibuildz/raftarpay');
+        $this->line('  ─────────────────────────────────────────────');
+
         return self::SUCCESS;
     }
 }
